@@ -1,1 +1,39 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  transform: translateY(35%);
+  background-color: #07011a;
+  color: aliceblue;
+  text-align: center;
+}
+body h1 {
+  margin: 10px;
+  font-size: 40px;
+}
+body h2 {
+  margin: 10px;
+  font-size: 80px;
+}
+body .container {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: #0d0330;
+}
+body .container .card {
+  margin: 10px;
+  padding: 10px 30px;
+}
+body .container .card .time {
+  font-size: 55px;
+}
+body .container .card .format {
+  margin-top: 10px;
+  font-size: 20px;
+}/*# sourceMappingURL=style.css.map */
