@@ -11,8 +11,9 @@ function count() {
     document.getElementById("seconds").innerHTML = 60 - currentSecond ;
 
     document.getElementById("year").innerHTML = currentYear + 1 ;
+
     setTimeout(() => {
-        count();
+        count()
     }, 1000);
 }
 count();
